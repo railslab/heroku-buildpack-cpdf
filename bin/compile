@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+DEST=$1/bin/cpdf
+wget -O "$DEST" "https://github.com/coherentgraphics/cpdf-binaries/raw/master/Linux-Intel-64bit/cpdf"
+chmod +x "$DEST"
